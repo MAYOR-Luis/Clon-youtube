@@ -1,0 +1,54 @@
+@import url(../../node_modules/normalize.css/normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+/* * {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+    }
+*/
+/*------Variables globales-------*/
+:root {
+  --accent-color: #ff0000;
+  --grey-color: #909090;
+  --grey-color-alt: #ccc;
+  --border-color: rgba(0,0,0,0.1);
+  --bg-color: #fff;
+  --bg-color-alt: #f9f9f9;
+  --bg-color-active: #e5e5e5;
+  --text-color: #030303;
+  --text-color-alt: #606060;
+  --text-color-white: #fff;
+  --body-font:"Roboto",sans-serif;
+  --icon-font:"icomoon";
+  --big-font-size: 1.125rem; /* 18px */
+  --normal-font-size: 1rem; /* 16px */
+  --small-font-size: 0.875rem; /* 14px */
+  --smaller-font-size: 0.75rem; /* 12px */
+  --font-bold: 500;
+  /* Otros */
+  --header-height:56px;
+  /* ------Cabecera principal del sitio ------- */
+}
+:root h1,
+:root h2,
+:root h3,
+:root h4,
+:root h5,
+:root h6,
+:root b {
+  font-weight: var(--font-bold);
+}
+:root button {
+  font-family: var(--body-font);
+}
+:root img {
+  width: 100%;
+}
+
+body {
+  font-family: var(--body-font);
+}
+body .main-header {
+  height: var(--header-height);
+  background-color: red;
+}
